@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supriyo's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Supriyo</h1>
+        <p>Software Engineer</p>
+        <img src="profile.png" alt="Supriyo's Photo">
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <h3>E-commerce Website</h3>
+                <p>Developed a fully functional e-commerce website with a user-friendly interface, secure payment gateway, and admin dashboard for managing products and orders.</p>
+            </div>
+            <div class="project">
+                <h3>Tourism Promotion Website</h3>
+                <p>Created a responsive website for promoting tourism at Santragachi Lake, featuring image galleries, visitor reviews, and information on local attractions.</p>
+            </div>
+            <div class="project">
+                <h3>College Website</h3>
+                <p>Designed and developed a website for a college, including features like course listings, faculty profiles, and an online application form.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>C</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a class="resume-button" href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Supriyo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
